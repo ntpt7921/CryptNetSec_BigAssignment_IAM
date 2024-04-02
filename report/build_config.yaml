@@ -1,0 +1,27 @@
+---
+### BUILD CONFIGURATION
+from: markdown
+input-file:
+  - ./content/01_intro.md
+  - ./content/02_theoretical_basis.md
+  - ./content/03_design.md
+  - ./content/04_implementation_assessment.md
+  - ./content/05_conclusion.md
+  - ./content/06_appendices.md
+metadata-file: metadata.yaml
+verbosity: WARNING
+fail-if-warnings: true
+# filters:
+
+### INCLUDES
+#include-in-header:
+#include-before-body:
+#include-after-body:
+resource-path:
+  - .
+
+### OPTION FOR GENERAL WRITER
+highlight-style: tango
+
+### OPTION FOR SPECIFIC WRITER
+#listings: true

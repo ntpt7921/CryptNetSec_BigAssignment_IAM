@@ -1,0 +1,30 @@
+---
+### METADATA
+title: Báo cáo bài tập lớn chủ đề 4
+subtitle: Mật mã và an ninh mạng
+author:
+- Lý Vĩnh Khang - 1852443
+- Nguyễn Trần Phước Thành - 1912059
+- Nguyễn Lương Trọng - 2120073
+- Võ Hoàng - 2113422
+date: This will be automated
+
+### DOCUMENT CONFIGURATION
+documentclass: article
+classoption:
+  - a4paper
+  - titlepage
+geometry:
+  - margin=1in
+fontsize: 12pt
+numbersections: true
+colorlinks: true
+header-includes: |
+  \usepackage{lscape}
+  \usepackage{longtable}
+
+### FRONT MATTERS
+toc: true
+toc-depth: 2
+lof: false
+lot: false
