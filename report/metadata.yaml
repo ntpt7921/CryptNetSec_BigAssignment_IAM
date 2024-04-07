@@ -19,6 +19,7 @@ geometry:
 fontsize: 12pt
 numbersections: true
 colorlinks: true
+caption-justification: centering
 header-includes: |
   \usepackage{lscape}
   \usepackage{longtable}

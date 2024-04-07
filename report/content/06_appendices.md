@@ -209,3 +209,20 @@ Ta thực hiện các bước sau để thiết đặt một client:
     `https://www.keycloak.org`, tương ứng với thiết đặt trên)
 
 6. Xác nhận lần cuối
+
+### Kích hoạt ghi nhật ký cho user và admin
+
+Mặc định, các hành động của user và admin không được ghi nhật ký lại. Để thể hiện được tính năng ghi
+nhật ký, ta cần phải kích hoạt các tính năng này.
+
+Ta thực hiện các bước sau để kích hoạt tính năng cho admin và user:
+
+1. Truy cập vào realm muốn thiết đặt, đi tới cửa số `Realm settings` (truy cập từ menu bên trái). Đi
+   tới tab `Events`.
+
+   ![Truy cập vào cửa số `Realm settings`, đi tới tab `Events`](./img/events.png){width=80%}
+
+2. Có hai tab nhỏ hơn `User events settings` và `Admin events settings`. Kích hoạt tùy chọn `Save
+   events` và xác nhận bằng cách nhấn nút `Save`.
+
+   ![Kích hoạt logging](./img/log-enable.png){width=80%}
